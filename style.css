@@ -12,6 +12,19 @@ h1 {
   display: flex;
   margin-bottom: 100px;
 }
+.experience-item {
+  box-shadow: gray 10px 10px 30px;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-left: 10px solid;
+  border-radius: 10px;
+}
+h2 {
+  font-size: 250%;
+}
 .half-width {
   width: 50%;
   padding-left: 50px;
@@ -46,4 +59,19 @@ h1 {
   background-image: url(developer-portfolio-master/images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.experience-area {
+  background-image: url(developer-portfolio-master/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#web-dev-experience {
+  border-left: 10px solid;
+  border-image: linear-gradient(blue, cyan) 30;
+  border-image-slice: 1;
+}
+#full-stack-experience {
+  border-left: 10px solid;
+  border-image: linear-gradient(salmon, tomato) 30;
+  border-image-slice: 1;
 }
