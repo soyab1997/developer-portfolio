@@ -10,6 +10,7 @@ h1 {
 }
 section {
   display: flex;
+  margin-bottom: 100px;
 }
 .half-width {
   width: 50%;
@@ -32,4 +33,17 @@ section {
 }
 .text-align {
   text-align: justify;
+}
+.download-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 80px;
+  border-radius: 5px;
+  color: black;
+  font-weight: 700;
+}
+.dream-big {
+  background-image: url(developer-portfolio-master/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
